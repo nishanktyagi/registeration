@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+
+    <style>
+        .box {
+            border: 3px solid white;
+            border-radius: 3px;
+        }
+        
+        body {
+            background-image: linear-gradient(45deg, white, blue);
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 80px;
+        }
+        
+        .style {
+            text-align: center;
+            font-size: 30px;
+            margin: 10px;
+            padding: 5px;
+            color: white;
+        }
+        
+        .end {
+            text-align: center;
+            font-size: 30px;
+            margin: 10px;
+            padding: 5px;
+            color: white;
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1><b> <u> Student Registration Form</u></b></h1>
+        <form action="#" id="registration">
+            <div class="style">
+                <label for="Name">Name :</label>
+                <input type="text" id="" placeholder="Enter Your Name ">
+            </div>
+
+            <div class="style">
+                <label for="DOB">Dob :</label>
+                <input type="date" name="dd/mm/yyyy" id="DOB">
+            </div>
+
+            <div class="style">
+                <label for="email">Email Id :</label>
+                <input type="email" name="" id="email" placeholder="Enter Your Email Id ">
+            </div>
+            <div class="style">
+                <label for="college">College :</label>
+                <input type="text" id="college" placeholder="Enter Your College Name">
+            </div>
+            <div class="style">
+
+                <label for="course">Course :</label>
+                <Select id="course">
+                    <option value=" ">Choose Your Course</option>
+                    <option value=" B.TECH">B.TECH</option>
+                    <option value=" B.C.A">B.C.A</option>
+                    <option value=" B.C.A">B.C.A</option>
+                    <option value=" B.B.A">B.B.A</option>
+                    <option value=" M.B.A">M.B.A</option>
+                </Select>
+            </div>
+            <div class="style">
+
+                <label for="Department">Department :</label>
+                <Select id="course">
+                    <option value=" ">Choose Your Department</option>
+                    <option value="I.T">I.T</option>
+                    <option value="COMPUTER SCIENCE">COMPUTER SCIENCE</option>
+                    <option value=" MECHANICAL">MECHANICAL</option>
+                    <option value=" CIVIL"> CIVIL</option>
+                    <option value="ELECTRONICS">ELECTRONICS</option>
+                </Select>
+            </div>
+            <div class="style">
+                <label for="mobile number"> Mobile Number :</label>
+                <input type="number" placeholder="Enter Your Mobile Number">
+            </div>
+            <div class="style">
+                <label for="Gender">Gender :</label>
+                <input type="radio" name="Gender" id="Sex" value="Male">
+                <label for="Male">Male</label>
+
+                <input type="radio" name="Gender" id="Sex" value="Female">
+                <label for="Male">Female</label>
+
+            </div>
+            <div class="end">
+                <input type="reset" value="Reset" id="reset">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
